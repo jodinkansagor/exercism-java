@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DartsTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-08-29T20:15:07" hostname="YW99VM9NKM" time="0.045">
+  <properties/>
+  <testcase name="exactlyOnCentre()" classname="DartsTest" time="0.032"/>
+  <testcase name="onTheInnerCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="justWithinTheInnerCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="justWithinTheMiddleCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="asymmetricPositionBetweenTheInnerAndMiddleCircles()" classname="DartsTest" time="0.001"/>
+  <testcase name="nearTheCentre()" classname="DartsTest" time="0.001"/>
+  <testcase name="missedTarget()" classname="DartsTest" time="0.001"/>
+  <testcase name="justOutsideTheOuterCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="justOutsideTheMiddleCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="onTheMiddleCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="onTheOuterCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="justWithinTheOuterCircle()" classname="DartsTest" time="0.001"/>
+  <testcase name="justOutsideTheInnerCircle()" classname="DartsTest" time="0.001"/>
+  <system-out><![CDATA[Distance: 0.0in 10
+Distance: 1.0in 10
+Distance: 0.9899494936611665in 10
+Distance: 4.949747468305833in 5
+Distance: 4.031128874149275in 5
+Distance: 0.14142135623730953in 10
+Distance: 12.727922061357855Distance: 10.040916292848975Distance: 5.091168824543142in 1
+Distance: 5.0in 5
+Distance: 10.0in 1
+Distance: 9.899494936611665in 1
+Distance: 1.1313708498984762in 5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
