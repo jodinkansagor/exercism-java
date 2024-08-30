@@ -19,14 +19,14 @@ class DnDCharacter {
         return sum;
     }
 
+    //Gets random numbers, adds to a list
     List<Integer> rollDice() {
         List<Integer> diceRolls = new ArrayList<>();
         for (int i = 1; i <= 4; i++) {
-            Random randomNumber = new Random(System.currentTimeMillis());
+            Random randomNumber = new Random();
             int randomInt = randomNumber.nextInt(6) + 1;
             diceRolls.add(randomInt);
         }
-
         return diceRolls;
     }
 
